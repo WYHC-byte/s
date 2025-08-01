@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 强制声明编码和兼容性 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 无聊到极致的标题和描述 -->
+    <title>Jork Li的HTML5学习笔记 - 2025年8月</title>
+    <meta name="description" content="记录个人学习HTML和CSS的基础知识">
+    
+    <!-- 用最土的宋体 -->
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: "宋体", SimSun, serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        /* 标题样式 */
+        h1 {
+            text-align: center;
+            color: #555;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            font-weight: normal;
+        }
+        
+        /* 文章区域 */
+        .post {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        /* 页脚 */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <!-- 无聊的标题 -->
+    <h1>◆ HTML5基础学习记录 ◆</h1>
+    
+    <div class="post">
+        <h2>2025年3月1日 阴</h2>
+        <p>今天终于学会了HTML表单的基本用法，原来&lt;input&gt;标签有这么多类型：</p>
+        <pre>
+&lt;input type="text"&gt;
+&lt;input type="password"&gt;
+&lt;input type="checkbox"&gt;</pre>
+        <p>不过单选框和复选框的区别还是有点混淆...</p>
+    </div>
+    
+    <!-- 文章2-->
+    <div class="post">
+        <h2>2025年4月2日 晴</h2>
+        <p>尝试用CSS做一个简单的导航栏，结果失败了三次才成功：</p>
+        <pre>
+/* 错误示范 */
+.nav {
+    display: inline;  /* 应该用flex */
+    color: red;       /* 太丑了 */
+}
+
+/* 正确写法 */
+.nav {
+    display: flex;
+    justify-content: space-around;
+}</pre>
+    </div>
+    
+    <!-- 文章3-->
+    <div class="post">
+        <h2>2025年5月19日 雨</h2>
+        <p>遇到一个奇怪的问题：为什么我的&lt;div&gt;背景色不显示？</p>
+        <p>后来发现是忘记写height属性了...</p>
+    </div>
+
+<div class="post">
+    <h2>2025年6月2日 多云</h2>
+    <p>今天尝试用JavaScript实现一个简单的计算器：</p>
+    <pre>
+function calculate() {
+    let num1 = parseInt(prompt("输入第一个数字"));
+    let num2 = parseInt(prompt("输入第二个数字"));
+    alert("结果是：" + (num1 + num2));
+}</pre>
+    <p>结果发现如果用户输入非数字会出bug...（还没学会try-catch）</p>
+</div>
+
+<div class="post">
+    <h2>2025年6月13日 晴</h2>
+    <p>邻居王阿姨让我帮她修电脑，发现她桌面上有20多个"新建文件夹"：</p>
+    <ul>
+        <li>新建文件夹</li>
+        <li>新建文件夹(1)</li>
+        <li>新建文件夹(2)</li>
+        <li>...</li>
+    </ul>
+    <p>花了一下午帮她整理，最后她请我吃了西瓜🍉</p>
+</div>
+
+<div class="post">
+    <h2>2025年7月1日 星期日 雷阵雨</h2>
+    <p>学习CSS动画时做的失败案例：</p>
+    <pre>
+/* 试图让方块旋转但失败了 */
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: spin 1s;
+    /* 忘记写@keyframes了 */
+}</pre>
+    <p>查了2小时文档才发现问题...</p>
+</div>
+
+<div class="post">
+    <h2>2025年7月19日 星期四 阴</h2>
+    <p>第一次知道浏览器开发者工具：</p>
+    <ol>
+        <li>按F12打开了神奇的面板</li>
+        <li>不小心改了网页文字</li>
+        <li>以为自己是黑客</li>
+        <li>刷新后发现全没了😭</li>
+    </ol>
+</div>
+
+<div class="post">
+    <h2>2025年7月20日 星期六 晴</h2>
+    <p>帮儿子做数学作业时写的"高科技"代码：</p>
+    <pre>
+# Python 3
+print("1+1=", 1+1)  # 骄傲地输出了2
+print("2×2=", 2*2)  # 感觉自己是个天才</pre>
+    <p>儿子用看智障的眼神看着我...</p>
+</div>
+
+<div class="post">
+    <h2>2025年7月29日 星期一 阴</h2>
+    <p>发现VS Code可以换主题颜色，纠结了一下午选哪个...</p>
+</div>
+
+<div class="post">
+    <h2>2025年7月31日 星期三 晴</h2>
+    <p>把&lt;br&gt;和&lt;hr&gt;标签的区别抄写了10遍加强记忆</p>
+</div>
+
+    <div class="footer">
+        <p>© 2025 Jork Li的学习笔记 | 最后上传时间：北京时间2025年7月31日
+        </p>
+        
+        <!-- 时间验证（防止缓存） -->
+        <script>
+            document.write('<p style="display:none">' + new Date() + '</p>');
+        </script>
+    </div>
+    
+    <!-- 无聊的JavaScript验证 -->
+    <script>
+        // 控制台彩蛋
+        console.log('%c警告：这是个人学习网站，请不要在此输入任何命令', 
+                   'color:red;font-size:14px;');
+        
+        // 隐藏的开发者入口（按Ctrl+Shift+J可见）
+        if (window.console) {
+            console.log('调试提示：当前版本v1.0.0');
+        }
+    </script>
+</body>
+</html>
